@@ -130,7 +130,7 @@ graph TD
     E -- "Processes queries" --> F;
     E -- "Retrieves context" --> G;
 
-    %% Styling
+    %% Styling for better visibility
     style A fill:#D6EAF8,stroke:#3498DB,stroke-width:2px
     style B fill:#FDEDEC,stroke:#E74C3C,stroke-width:2px
     style C fill:#FDEDEC,stroke:#E74C3C,stroke-width:2px
@@ -138,3 +138,4 @@ graph TD
     style E fill:#E8F8F5,stroke:#1ABC9C,stroke-width:2px
     style F fill:#F4ECF7,stroke:#8E44AD,stroke-width:2px
     style G fill:#F4ECF7,stroke:#8E44AD,stroke-width:2px
+```
