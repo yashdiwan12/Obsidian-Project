@@ -1,0 +1,7 @@
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+
+.\venv\Scripts\activate
+
+python rag_setup.py
+
+python app.py

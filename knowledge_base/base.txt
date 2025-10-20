@@ -1,0 +1,219 @@
+################################################################################
+
+Obsidian CYBERSECURITY KNOWLEDGE BASE
+This document contains a curated set of cybersecurity best practices and
+information for the Obsidian AI assistant
+Source material is adapted from CISA, NIST, and OWASP guidelines.
+################################################################################
+
+#-------------------------------------------------------------------------------
+
+SECTION 1: PHISHING AND SOCIAL ENGINEERING DEFENSE
+#-------------------------------------------------------------------------------
+
+Phishing is a type of social engineering attack often used to steal user data, including login credentials and credit card numbers. It occurs when an attacker, masquerading as a trusted entity, dupes a victim into opening an email, instant message, or text message.
+
+Key Characteristics of Phishing Emails:
+
+Sense of Urgency: Attackers often create a sense of urgency to rush a user into action without thinking. Phrases like "Urgent Action Required" or "Your Account Will Be Suspended" are common.
+
+Generic Greetings: Phishing emails often use generic greetings like "Dear Customer" or "Valued Member" instead of your actual name.
+
+Mismatched URLs: Hover your mouse over a link before clicking it. The tooltip will show the actual destination URL. If the hyperlink text says it's your bank, but the URL points to an unfamiliar domain, it is likely a phishing attempt.
+
+Unexpected Attachments: Be wary of unexpected attachments, especially from unknown senders. These files can contain malware. Common malicious file types include .zip, .exe, .scr, and macro-enabled Office documents (.docm, .xlsm).
+
+Spelling and Grammar Errors: While not always present, poor spelling and grammar can be a red flag that an email is not from a legitimate, professional organization.
+
+Unusual Sender Address: Examine the sender's email address. Attackers may create addresses that are very similar to legitimate ones, such as support@yourbank-security.com instead of support@yourbank.com.
+
+How to Protect Yourself from Phishing:
+
+Stop and Think: Before clicking any links or downloading attachments, take a moment to analyze the email for red flags.
+
+Verify Independently: If an email from a service asks you to take action, do not use the links in the email. Instead, open your browser and navigate to the service's website directly to log in and check for any notifications.
+
+Use Multi-Factor Authentication (MFA): MFA provides a critical layer of security. Even if an attacker steals your password, they will not be able to access your account without the second authentication factor (e.g., a code from your phone).
+
+Report Phishing: Use the "Report Phishing" feature in your email client. This helps train spam filters to block similar attacks in the future.
+
+#-------------------------------------------------------------------------------
+
+SECTION 2: PASSWORD SECURITY AND AUTHENTICATION
+#-------------------------------------------------------------------------------
+
+Strong authentication is a primary defense against unauthorized access to your accounts and systems.
+
+Creating Strong Passwords:
+
+Length is Key: A password should be at least 12-14 characters long. Longer is always better.
+
+Use a Mix of Characters: Include a combination of uppercase letters, lowercase letters, numbers, and symbols (e.g., !, @, #, $).
+
+Avoid Common Patterns: Do not use easily guessable information like your name, birthday, "password123", or "qwerty".
+
+Use Passphrases: A strong method is to create a passphrase, which is a sequence of words. For example, "CorrectHorseBatteryStaple" is much stronger and easier to remember than "P@ssw0rd1!".
+
+Best Practices for Password Management:
+
+Unique Passwords for Every Account: Never reuse passwords across different websites or services. If one service is breached, attackers will use the stolen credentials to try and access your other accounts (an attack called "credential stuffing").
+
+Use a Password Manager: It is nearly impossible to remember dozens of unique, complex passwords. A password manager is a secure, encrypted application that generates and stores strong passwords for all your accounts. You only need to remember one strong master password to unlock the manager.
+
+Enable Multi-Factor Authentication (MFA): Also known as Two-Factor Authentication (2FA), MFA requires you to provide two or more verification factors to gain access to an account. This is one of the most effective security measures you can take. Types of MFA include:
+
+Something you know: Your password.
+
+Something you have: A code from an authenticator app on your phone, an SMS code, or a physical security key.
+
+Something you are: A fingerprint or facial scan (biometrics).
+
+#-------------------------------------------------------------------------------
+
+SECTION 3: SECURE HOME WI-FI NETWORK CONFIGURATION
+#-------------------------------------------------------------------------------
+
+An unsecured home Wi-Fi network can be an entry point for attackers to access your devices and personal information.
+
+Steps to Secure Your Home Wi-Fi Network:
+
+Change the Default Router Password: Your router has a default administrator username and password (e.g., admin/password). Change this immediately. If an attacker can access your router's admin panel, they can control your entire network.
+
+Use Strong Encryption: Always use the strongest encryption protocol available. This is typically WPA3. If WPA3 is not available, use WPA2. Avoid using WEP and WPA, as they are outdated and insecure.
+
+Set a Strong Network Password (SSID Key): Create a strong, unique password for your Wi-Fi network itself. This is the password you use to connect your devices.
+
+Change the Default SSID (Network Name): While not a major security risk, changing the default SSID (e.g., "Linksys" or "Netgear") can prevent attackers from immediately knowing your router's manufacturer, which could help them exploit known vulnerabilities. Do not include personal information in your SSID.
+
+Enable the Firewall: Most routers have a built-in firewall. Ensure it is enabled. A firewall acts as a barrier between your network and the internet, blocking malicious traffic.
+
+Keep Router Firmware Updated: Router manufacturers release firmware updates to patch security vulnerabilities. Check your router manufacturer's website regularly for updates and install them promptly. Many modern routers have an auto-update feature.
+
+Disable WPS (Wi-Fi Protected Setup): WPS is a feature designed to make connecting devices easier, but it has known security flaws that can be exploited by attackers to gain access to your network. It is best to disable it.
+
+#-------------------------------------------------------------------------------
+
+SECTION 4: MALWARE PROTECTION
+#-------------------------------------------------------------------------------
+
+Malware, short for malicious software, is any software intentionally designed to cause disruption to a computer, server, client, or computer network, leak private information, gain unauthorized access to information or systems, or deprive users access to information.
+
+Types of Malware:
+
+Viruses: Attach themselves to clean files and spread to other clean files.
+
+Worms: Can replicate themselves and spread to other computers on a network without human intervention.
+
+Trojans: Disguise themselves as legitimate software to trick users into installing them.
+
+Ransomware: Encrypts a victim's files and demands a ransom payment to restore access.
+
+Spyware: Secretly records a user's activities, such as keystrokes and browsing history.
+
+Adware: Automatically delivers unwanted advertisements to a user's computer.
+
+How to Prevent Malware Infections:
+
+Use Antivirus Software: Install reputable antivirus software on your computers and mobile devices and keep it updated. Run regular scans.
+
+Keep Software Updated: Keep your operating system (Windows, macOS, etc.) and all your applications (web browser, office suite, etc.) updated. Software updates frequently include patches for security vulnerabilities that malware can exploit.
+
+Be Cautious with Downloads: Only download software from official websites and trusted sources. Avoid pirated software, as it is often bundled with malware.
+
+Think Before You Click: Be wary of pop-up ads, unexpected links, and phishing emails.
+
+Use a Firewall: A firewall can help block malware from accessing your computer over the internet.
+
+Back Up Your Data: Regularly back up your important files to an external hard drive or a secure cloud service. If you are hit with ransomware, you can restore your files from the backup without paying the ransom.
+
+#-------------------------------------------------------------------------------
+
+SECTION 5: OWASP TOP 10 - WEB APPLICATION SECURITY
+#-------------------------------------------------------------------------------
+
+The OWASP Top 10 is a standard awareness document for developers and web application security. It represents a broad consensus about the most critical security risks to web applications.
+
+Summary of Key Risks:
+
+A01: Broken Access Control: Flaws that allow users to act outside of their intended permissions. For example, a regular user being able to access an admin page by guessing the URL.
+
+A02: Cryptographic Failures: Failures related to cryptography (or lack thereof) which often lead to the exposure of sensitive data. This includes transmitting data in plain text, using weak encryption algorithms, or poor key management.
+
+A03: Injection: Flaws, such as SQL injection, that occur when untrusted data is sent to an interpreter as part of a command or query. The attacker’s hostile data can trick the interpreter into executing unintended commands or accessing data without proper authorization.
+
+A04: Insecure Design: A category focusing on risks related to design and architectural flaws, calling for more use of threat modeling, secure design patterns, and reference architectures.
+
+A05: Security Misconfiguration: This includes insecure default configurations, incomplete or ad hoc configurations, open cloud storage, misconfigured HTTP headers, and verbose error messages containing sensitive information.
+
+A06: Vulnerable and Outdated Components: Using libraries, frameworks, and other software modules with known vulnerabilities. It is critical to perform regular scans and updates for all components.
+
+A07: Identification and Authentication Failures: Flaws that can allow attackers to compromise passwords, keys, or session tokens, or to exploit other implementation flaws to assume other users’ identities.
+
+A08: Software and Data Integrity Failures: Failures related to code and infrastructure that does not protect against integrity violations. An example is where an application relies upon plugins or libraries from untrusted sources.
+
+A09: Security Logging and Monitoring Failures: Insufficient logging and monitoring, which allows attackers to attack systems, maintain persistence, and tamper, extract, or destroy data without being detected.
+
+A10: Server-Side Request Forgery (SSRF): Flaws that occur whenever a web application is fetching a remote resource without validating the user-supplied URL, allowing an attacker to coerce the application to send a crafted request to an unexpected destination.
+
+#-------------------------------------------------------------------------------
+
+SECTION 6: INCIDENT RESPONSE BASICS 🚨
+#-------------------------------------------------------------------------------
+
+Incident Response (IR) is the organized approach to addressing and managing the aftermath of a security breach or cyberattack. The goal is to handle the situation in a way that limits damage and reduces recovery time and costs.
+
+Phases of Incident Response:
+
+Preparation: The "before" phase. This involves creating an IR plan, defining roles and responsibilities, and having the right tools and access in place before an incident occurs.
+
+Identification: Determining whether an event is a security incident. This involves analyzing logs, alerts from security tools, and unusual system behaviors to confirm a breach.
+
+Containment: The immediate priority after identification. This involves isolating affected systems (e.g., disconnecting a server from the network) to prevent the attack from spreading and causing further damage.
+
+Eradication: Removing the threat from the environment. This means finding the root cause of the incident and eliminating malicious code, compromised accounts, and vulnerabilities.
+
+Recovery: Restoring affected systems to normal operation. This includes restoring data from clean backups, rebuilding systems, and monitoring them closely to ensure the threat is gone.
+
+Lessons Learned: A post-incident review. The team analyzes what happened, what went well, what could have been done better, and how to update the IR plan and security controls to prevent a recurrence.
+
+#-------------------------------------------------------------------------------
+
+SECTION 7: SECURE SOFTWARE DEVELOPMENT LIFECYCLE (SSDLC) 💻
+#-------------------------------------------------------------------------------
+
+The SSDLC integrates security practices into each phase of the software development process. Building security in from the start is far more effective and less expensive than trying to add it on after development is complete.
+
+Key Security Activities by Phase:
+
+Requirements: In this initial phase, define security requirements alongside functional ones. This includes data privacy rules, authentication standards, and compliance needs.
+
+Design: Use threat modeling to identify potential security risks in the application's architecture. Create a design that is secure by default, applying principles like least privilege and defense-in-depth.
+
+Implementation (Coding): Follow secure coding standards to prevent common vulnerabilities (like those in the OWASP Top 10). Use automated tools to scan code for flaws as it's written. Avoid using insecure or deprecated functions.
+
+Testing: Go beyond functional testing to include dedicated security testing.
+
+Static Application Security Testing (SAST): Scans source code for known vulnerabilities.
+
+Dynamic Application Security Testing (DAST): Tests the running application for flaws.
+
+Penetration Testing: Simulates a real-world attack to find weaknesses.
+
+Deployment: Securely configure the production environment. This includes hardening servers, applying patches, and configuring network firewalls and access controls. Remove all debug code and default credentials before going live.
+
+#-------------------------------------------------------------------------------
+
+SECTION 8: CLOUD SECURITY FUNDAMENTALS ☁️
+#-------------------------------------------------------------------------------
+
+Securing workloads in the cloud requires a different approach than traditional on-premises security, primarily centered on the Shared Responsibility Model.
+
+Core Concepts:
+
+Shared Responsibility Model: The cloud provider (e.g., AWS, Azure) is responsible for the "Security of the Cloud" (the physical data centers, servers, and network infrastructure). The customer is responsible for "Security in the Cloud" (their data, user access, network configurations, and applications).
+
+Identity and Access Management (IAM): This is the foundation of cloud security. IAM controls who (users, services) can access what (resources, data) and how. Always apply the Principle of Least Privilege, giving identities only the minimum permissions they need to perform their function.
+
+Network Security: In the cloud, networks are virtual. You must configure Virtual Private Clouds (VPCs), subnets, and security groups (virtual firewalls) to control the flow of traffic to and from your resources. Block all unnecessary ports and restrict access to trusted IP addresses.
+
+Data Protection: Data is your most valuable asset. Use the cloud provider's tools to enforce encryption for your data both at rest (when it's stored on disk) and in transit (when it's moving over the network).
