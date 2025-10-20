@@ -14,9 +14,9 @@ Educational Content: Sections dedicated to explaining common cybersecurity threa
 
 Light/Dark Theme: A modern user interface with a theme switcher for user preference.
 
-File Structure
+Project File Structure
 
-The project is organized into frontend, backend, and database components.
+Here is a visual breakdown of the project's file and folder organization.
 
 Obsidian-Project/
 │
@@ -44,6 +44,7 @@ Obsidian-Project/
 │
 ├── 📦 requirements.txt        # Python dependencies
 └── 🔑 .env                    # Environment variables (API Key)
+
 
 
 Setup & Installation Guide
@@ -129,13 +130,3 @@ graph TD
     A -- "API Calls from JS <br>(for tools)" --> E;
     E -- "Processes queries" --> F;
     E -- "Retrieves context" --> G;
-
-    %% Styling for better visibility
-    style A fill:#D6EAF8,stroke:#3498DB,stroke-width:2px
-    style B fill:#FDEDEC,stroke:#E74C3C,stroke-width:2px
-    style C fill:#FDEDEC,stroke:#E74C3C,stroke-width:2px
-    style D fill:#FEF9E7,stroke:#F39C12,stroke-width:2px
-    style E fill:#E8F8F5,stroke:#1ABC9C,stroke-width:2px
-    style F fill:#F4ECF7,stroke:#8E44AD,stroke-width:2px
-    style G fill:#F4ECF7,stroke:#8E44AD,stroke-width:2px
-```
