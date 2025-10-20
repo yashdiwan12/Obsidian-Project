@@ -4,7 +4,7 @@ Obsidian is a web-based application designed to make cybersecurity knowledge acc
 
 ---
 
-## 🚀 Features
+## Features
 
 - User Authentication: Secure user registration and login system (PHP + MySQL).
 - AI-Powered Threat Query: Ask cybersecurity questions and get AI-assisted answers.
@@ -14,13 +14,13 @@ Obsidian is a web-based application designed to make cybersecurity knowledge acc
 
 ---
 
-## 🛠️ Setup & Installation Guide
+##  Setup & Installation Guide
 
 This project requires two separate server environments running simultaneously: XAMPP (PHP Website) and Python Environment (AI Backend).
 
 ---
 
-### ✅ Part 1: Setting Up the Website (XAMPP)
+### Part 1: Setting Up the Website (XAMPP)
 
 1. Install XAMPP.
 2. Move the Obsidian-Project folder into:
@@ -41,7 +41,7 @@ This project requires two separate server environments running simultaneously: X
 
 ---
 
-### 🧠 Part 2: Running the AI Backend (Python)
+### Part 2: Running the AI Backend (Python)
 
 cd C:/xampp/htdocs/Obsidian-Project
 
@@ -61,7 +61,7 @@ python app.py   # keep this terminal open
 
 ---
 
-## 🧱 Project Architecture
+## Project Architecture
 
 ```mermaid
 graph TD
